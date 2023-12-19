@@ -1,0 +1,44 @@
+ body{
+  margin: 0%;
+
+.Navbar{
+    background-color: #F4EAE0;
+    display: flex;
+    /*justify-content: space-around; */
+    align-items: center;
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Navbar img {
+    width: 70px;
+    height: 70px;
+}
+.Navbar a{
+    padding-left: 90px;
+    text-decoration: none;
+    
+}
+
+
+.content-flx{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.myImages img {
+    width: 150px;
+    height: 150px;
+} 
+.text-main p{
+    font-size: large;
+    font-weight: bold;
+
+}
+}
